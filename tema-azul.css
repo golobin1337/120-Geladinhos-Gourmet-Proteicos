@@ -1,0 +1,28 @@
+/* ===== Página B — azul gelado + rosa =====
+   Carregado depois do style.css: só troca as cores.
+   Layout, tamanhos e espaçamentos vêm todos do style.css. */
+:root{
+  --pink:#138aa6;          /* azul gelado — cor principal */
+  --pink-2:#26b8d6;        /* azul claro — degradê dos botões */
+  --p-rgb:19,138,166;      /* cor principal em RGB (usada nas sombras) */
+  --pink-soft:#dff4f9;
+  --pink-line:#cfe9f0;
+  --bg:#f1fbfd;            /* azul clarinho */
+  --bg-2:#e2f5fa;
+  --dark:#123848;          /* texto */
+  --muted:#5c7581;
+  --accent:#ff6f95;        /* rosa — destaques */
+  --accent-2:#e8457a;
+}
+
+/* placeholders e hover no tom azul */
+.ph{background:repeating-linear-gradient(45deg,var(--pink-soft) 0 12px,#f6fdff 12px 24px)}
+.btn-outline:hover{background:#f6fdff}
+
+/* destaques em rosa */
+.hero h1 span{color:var(--accent-2)}
+.tag{background:var(--accent-2)}
+.topbar{background:linear-gradient(90deg,var(--pink) 0%,var(--pink-2) 60%,var(--accent) 100%)}
+.dots span.on{background:var(--accent)}
+.bonus-note{border-color:var(--accent);color:var(--accent-2)}
+.highlight b{color:var(--accent-2)}
