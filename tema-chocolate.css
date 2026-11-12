@@ -1,0 +1,27 @@
+/* ===== Página A — chocolate + caramelo =====
+   Carregado depois do style.css: só troca as cores.
+   Layout, tamanhos e espaçamentos vêm todos do style.css. */
+:root{
+  --pink:#8b4a2b;          /* chocolate — cor principal */
+  --pink-2:#b8693a;        /* chocolate claro */
+  --p-rgb:139,74,43;       /* cor principal em RGB (usada nas sombras) */
+  --pink-soft:#f6e6d6;
+  --pink-line:#ecdccb;
+  --bg:#fbf4ec;            /* bege */
+  --bg-2:#f5e8da;
+  --dark:#3a1e14;          /* texto chocolate escuro */
+  --muted:#7f655b;
+  --caramel:#e59a4c;       /* caramelo — botões */
+  --caramel-2:#c8752f;
+}
+
+/* botões em caramelo */
+.btn{background:linear-gradient(180deg,var(--caramel) 0%,var(--caramel-2) 100%);box-shadow:0 10px 22px rgba(200,117,47,.30)}
+.btn:hover{box-shadow:0 14px 26px rgba(200,117,47,.38)}
+.btn-outline{background:#fff;color:var(--caramel-2);border-color:var(--caramel);box-shadow:none}
+.btn-outline:hover{background:#fffaf4;box-shadow:none}
+.car-btn.next,.num,.play{background:linear-gradient(180deg,var(--caramel),var(--caramel-2))}
+.topbar{background:linear-gradient(90deg,var(--pink) 0%,var(--caramel-2) 100%)}
+
+/* placeholders no tom bege */
+.ph{background:repeating-linear-gradient(45deg,var(--pink-soft) 0 12px,#fffaf4 12px 24px)}
