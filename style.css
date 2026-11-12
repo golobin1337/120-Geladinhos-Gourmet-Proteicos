@@ -90,6 +90,7 @@ section{padding:56px 0}
 .track::-webkit-scrollbar{display:none}
 .slide{flex:0 0 calc(50% + 40px);max-width:340px;scroll-snap-align:start;background:#fff;border:1px solid var(--pink-line);border-radius:14px;overflow:hidden;padding:8px 8px 0}
 .slide .ph{aspect-ratio:330/470;border-radius:8px;font-size:14px}
+.slide-img{width:100%;height:auto;border-radius:8px}
 .slide-cap{text-align:center;font-family:'Baloo 2',sans-serif;font-weight:700;color:var(--pink);font-size:15px;padding:10px 6px 4px}
 .slide-desc{text-align:center;color:var(--muted);font-size:13px;line-height:1.45;padding:0 8px 14px}
 .car-btn{position:absolute;top:44%;width:44px;height:44px;border-radius:50%;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:800;color:#fff;background:var(--pink);box-shadow:0 6px 16px rgba(var(--p-rgb),.3);z-index:2}
